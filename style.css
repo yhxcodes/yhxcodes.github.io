@@ -29,6 +29,23 @@ h1 {
     flex-direction: row;
 }
 
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .profile-pic {
+        width: 150px;
+        height: 150px; 
+        border-radius: 50%;
+    }
+    .cta-button {
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+    }
+}
+
 .cta-button {
     position: relative;
     display: flex; 
