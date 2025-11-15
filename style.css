@@ -1,0 +1,30 @@
+h1 {
+    font-family: "Tahoma";
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px; 
+    text-align: center;
+}
+
+.profile-pic {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto; 
+}
+
+.image-cropper {
+    width: 100rem;
+    height: 270px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 20px
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}

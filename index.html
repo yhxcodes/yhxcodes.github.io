@@ -4,15 +4,53 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Profile</title>
+  <link rel="stylesheet" href="style.css">
+  <title>My Portfolio</title>
 </head>
 <body>
-  <p>Example text</p>
-  <h2>Look, a picture of a silly dog!</h2>
-  <img 
-      src="https://upload.wikimedia.org/wikipedia/commons/4/48/Silly_Dog_%282277051513%29.jpg"   
-      alt="A silly looking dog."
-      width="400px" 
-  />
+  <header>
+    <h1>Header</h1>
+  </header>
+
+  <header class="header">
+    <div class="container">
+      </div>
+      <nav class="navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+ 
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="image-cropper">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/JapaneseSpitzPhoto1_-_hiro.jpg" alt="Your Name" class="profile-pic">
+        </div>
+          <p>
+            Lorem ipsum dolor s it amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <a href="#projects" class="cta-button">View My Projects</a>
+        </div>
+      </div>
+  </section>
+
+  
+  <footer class="footer">
+    <div class="container">
+      <p> example text </p>
+      <div class="social-links">
+        <a href="https://github.com" target="_blank">GitHub</a>
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
