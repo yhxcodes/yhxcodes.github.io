@@ -4,6 +4,7 @@
 ​
 ## Project Requirements
 
+
 ### Content
  Add a short paragraph describing the features below. What aesthetic and technical choices did you make? 
 - [ ] At least one profile picture
