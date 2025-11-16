@@ -89,6 +89,7 @@ body {
     justify-content: center;
     gap: 25px;
     flex-wrap: wrap;
+    align-items: stretch;
 }
 
 .projects-page h1 {
@@ -98,14 +99,21 @@ body {
 }
 
 .projects-page .project-container {
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    align-items: stretch;
 }
 
 .projects-page .project {
     background-color: rgb(109, 109, 225);
     width: 300px;
-    height: 100px; 
+    height: 200px;
     border-radius: 20px; 
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 .projects-page {
@@ -126,4 +134,8 @@ body {
     left: 0;
 }
 
-.
+.projects-page .project p {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.4;
+}
