@@ -76,11 +76,30 @@
     display: flex;
     justify-content: flex-start;
     position:absolute;
+    width: 100%;
+    margin-top: 10px; 
+}
+
+.home-page .navigation ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+
+}
+
+.home-page .navigation li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 body {
     background-color:bisque;
     font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .project {
@@ -139,6 +158,19 @@ body {
 .projects-page .navigation {
     position:absolute;
     left: 0;
+}
+
+.projects-page .navigation ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.projects-page .navigation li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 .projects-page .project p {
