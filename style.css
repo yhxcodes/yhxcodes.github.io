@@ -1,4 +1,4 @@
-h1 {
+.home-page h1 {
     font-family: "Tahoma";
     width: 50%; 
     margin-left: auto;
@@ -58,18 +58,72 @@ h1 {
     justify-content: center;
 }
 
-.header-class {
+.home-page .header-class {
     display: flex;
     flex-direction: row;
     position: relative;
+    align-items: center;
 }
 
-.navigation {
+.home-page .navigation {
     display: flex;
     justify-content: flex-start;
-    position: absolute;
+    position:absolute;
 }
 
 body {
     background-color:bisque;
+    font-family: "Arial", sans-serif;
 }
+
+.project {
+    background-color: rgb(109, 109, 225);
+    min-width:300px;
+    height:100px;
+    border-radius:20px;
+}
+
+.project-container {
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.projects-page h1 {
+    margin: 40px;
+    text-align: center;
+    font-family: "Tahoma";
+}
+
+.projects-page .project-container {
+    align-items: center;
+}
+
+.projects-page .project {
+    background-color: rgb(109, 109, 225);
+    width: 300px;
+    height: 100px; 
+    border-radius: 20px; 
+}
+
+.projects-page {
+    background-color: beige;
+    text-align: center;
+    font-family: "Tahoma";
+}
+
+.projects-page .header-class {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+.projects-page .navigation {
+    position:absolute;
+    left: 0;
+}
+
+.
