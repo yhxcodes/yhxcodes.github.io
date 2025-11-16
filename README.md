@@ -7,31 +7,29 @@
 
 ### Content
  Add a short paragraph describing the features below. What aesthetic and technical choices did you make? 
-- [ ] At least one profile picture
-- [ ] Biography (at least 100 words)
-- [ ] Functional Contact Form
-- [ ] "Projects" section
-- [ ] Links to external sites, e.g. GitHub and LinkedIn.
+
+ My portfolio includes two pages, a home page and a project page which includes separate boxes with details of projects. I have included a circular profile pict ure on the home page using image cropper which is aligned in the same row as the text aside from when it is in mobile view, in which case it appears as a column with the picture appearing above the text.  I have included a biography of 100 words detailing my current journey as part of the She Codes Plus bootcamp. 
+ 
+ I opted for a neutral colour for the background and have included a functional contact form with fields for name, email and message. The submit button for the contact form appears blue when hovered over. The navigation bar on both sites appears in a row and is in bold, black text and links between the main page and the projects page. I also included links to external sites, including GitHub and LinkedIn. 
 ​
 ### Technical
- Add a short paragraph describing the features below. What strategies or design decisions did you work from? 
-- [ ] At least 2 web pages.
-- [ ] Version controlled with Git
-- [ ] Deployed on GitHub pages.
-- [ ] Implements responsive design principles.
-- [ ] Uses semantic HTML.
+ Add a short paragraph describing the features below. What strategies or design decisions did you work from?
+
+ There are two pages, including a home page and projects page and it is version controlled with Git and deployed on GitHub (yhxcodes.github.io). Both pages use semantic HTML in their structure. I included media queries for the home page to implement responsive design principles, for instance the circle profile picture inside the .image.cropper is set to different sizes based on screen width. Flexbox has been used on both pages, for instance for the section containing the profile picture and bio which is set to stack vertifically on smallr screens and horizontally on wider screens. The project page is made responsive using flexbox for the project containers and the project containers display information about each project and are designed to wrap and stack on smaller screens while remaining horizontally on larger screens. 
+-
 
 ### Bonus (optional)
- Add a short paragraph describing the features below, if you included any. 
-- [ ] Different styles for active, hover and focus states.
-- [ ] Include JavaScript to add some dynamic elements to your site. (Extra tricky!)
+
+I have included a hover effect changing the background colour of the button for the contact form when hovered. This transitions to a light blue when hovered over. 
+
 ​
 ### Screenshots
-> Please include the following:
-> - The different pages and features of your website on mobile, tablet and desktop screen sizes (multiple screenshots per page and screen size).
-> - The different features of your site, e.g. if you have hover states, take a screenshot that shows that.  
-> 
-> You can do this by saving the images in a folder in your repo, and including them in your readme document with the following Markdown code: 
+Screenshots are included for desktop, mobile and tablet view as well as the hover state feature.
 
 ####  image_title_goes_here 
-![Put a description of your image here](./relative_path_to_file)
+![Screenshot desktop](/Screenshot%20desktop%201.png)
+![Screenshot mobile 1](./Screenshot%20mobile%201.png))
+![Screenshot mobile 2](/Screenshot%20mobile%202.png)
+![Screenshot tablet 1](/Screenshot%20tablet%201.png))
+![Screenshot hover state](/Screenshot%20hover%20state.png)
+
